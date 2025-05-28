@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Prisha Interior Solutions</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="floating-navbar">
+  <div class="navbar-container">
+    <div class="logo">
+      <img class="navbar-logo" src="assets/img/navbar-logo.png" alt="Prisha Interior Solutions Logo">
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" >Projects</a></li>
+        <li><a href="contact.html"  class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Add this after your nav in the navbar-container -->
+<div class="menu-toggle" aria-label="Open Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+  </div>
+</header>
+
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / <span>Contact</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-intro">
+                    <h2>Get in Touch</h2>
+                    <p>We'd love to hear about your project and how we can help. Fill out the form below or use our
+                        contact information to reach out directly.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-form-container">
+                        <h3>Send Us a Message</h3>
+                        <form action="https://formspree.io/f/mkgrldny" method="POST" id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" >Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Interested In</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="residential">Residential Design & Execution </option>
+                                    <option value="commercial">Commercial Design & Execution</option>
+                                    <option value="planning">Industrial/Retail Design & Execution</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <div class="form-group full-width">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <label for="privacy">I agree to the privacy policy</label>
+                                </div>
+                            </div>
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div class="info-content">
+                                <h4>Address</h4>
+                                Anniruddha Bunglow No. 15A, Sahakarvrundh Society, Lane No.13,
+                                Ramkrishna Paramhuns Nagar,
+                                Vanaz Kothrud, Pune
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <p>+91 9011052215</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">✉️</div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>info@prishainteriorsolutions.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">⏰</div>
+                            <div class="info-content">
+                                <h4>Working Hours</h4>
+                                Monday - Saturday: 10:00 AM - 7:00 PM
+                                Sunday: Closed
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">FB</a>
+                            <a href="#" class="social-link">IG</a>
+                            <a href="#" class="social-link">LI</a>
+                            <a href="#" class="social-link">PT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d491.48841935955795!2d73.80121624333447!3d18.511952528507674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfb18cb41d6b%3A0x802c809262c5a939!2s90%2F1%2F54%2C%20Lane%20Number%2013%2C%20Sahakar%20Vrinda%20Society%2C%20Ramkrishna%20Paramhans%20Nagar%2C%20Kothrud%2C%20Pune%2C%20Maharashtra%20411038!5e0!3m2!1sen!2sin!4v1748082054184!5m2!1sen!2sin"
+                                width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <div class="footer-logo">Prisha Interior Solutions</div>
+                        <p>Creating beautiful, functional spaces that inspire and delight.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">FB</a>
+                            <a href="#" class="social-link">IG</a>
+                            <a href="#" class="social-link">LI</a>
+                            <a href="#" class="social-link">PT</a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <ul class="footer-links">
+
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Pages</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <address>
+                            <p></p>
+                            <p>Prisha Interior Solutions
+                                Vanaz, Kothrud, Pune</p>
+                            <p>info@prishainteriorsolutions.com</p>
+                            <p>+91 9011052215</p>
+                        </address>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Prisha Interior Solutions. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
